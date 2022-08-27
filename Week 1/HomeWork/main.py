@@ -16,6 +16,7 @@ print("*****************\n*****************\n*****************\n****************
 A = int(input("nhập số tự nhiên A :"))
 B = int(input("nhập số tự nhiên B :"))
 
+# Làm Thiếu Hiệu A - B
 
 
 
@@ -28,6 +29,6 @@ B = int(input("nhập số tự nhiên B :"))
 # 2020 = x 
 # print(x)
 
-
+# Làm sai rồi làm lại đi đọc cái code dùm
 x = 2020 
 print(x)
