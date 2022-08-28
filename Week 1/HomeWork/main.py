@@ -29,6 +29,5 @@ B = int(input("nhập số tự nhiên B :"))
 # 2020 = x 
 # print(x)
 
-# Làm sai rồi làm lại đi đọc cái code dùm
-x = 2020 
-print(x)
+# x = 2020 
+# print(x)
