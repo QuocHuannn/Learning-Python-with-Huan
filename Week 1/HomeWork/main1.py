@@ -17,6 +17,7 @@ print("*****************\n*****************\n*****************\n****************
 A = int(input("nhập số tự nhiên A :"))
 B = int(input("nhập số tự nhiên B :"))
 # Làm Thiếu Hiệu A - B
+print (A , B , sep ="-")
 
 
 # CÂU 3 SỮA LỖI ĐOẠN CODE SAU        --------->  TRUE
