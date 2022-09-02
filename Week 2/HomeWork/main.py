@@ -1,25 +1,19 @@
 # Bài 1: Giải phương trình bậc 2. Nhập 3 số a, b, c giải pt ax^2 +bx + c = 0
-from math import sqrt 
-a = float(input(" nhập số a :" ))
-b = float(input(" nhập số b :" ))
-c = float(input(" nhập số c :" ))
-delta = b**2 - ( 4*a*c )
-if delta < 0 :
-    print (" phương trình vô nghiệm ")
-elif delta == 0 :
-    print (" phương trình có nghiệm kép x1 = x2 = "  , -b/(2*a))
-else : 
-    x1 = (-b + sqrt(delta))/(2*a) 
-    x2 = (-b - sqrt(delta))/(2*a) 
-    print ("print phương trình có 2 nghiệm phân biệt " , x1 , x2  )
+# from math import sqrt 
+# a = float(input(" nhập số a :" ))
+# b = float(input(" nhập số b :" ))
+# c = float(input(" nhập số c :" ))
+# delta = b**2 - ( 4*a*c )
+# if delta < 0 :
+#     print (" phương trình vô nghiệm ")
+# elif delta == 0 :
+#     print (" phương trình có nghiệm kép x1 = x2 = "  , -b/(2*a))
+# else : 
+#     x1 = (-b + sqrt(delta))/(2*a) 
+#     x2 = (-b - sqrt(delta))/(2*a) 
+#     print ("print phương trình có 2 nghiệm phân biệt " , x1 , x2  )
 
     
-    
-    
-
-
-
-
 
 
 # Bài 2: phân loại tam giác
@@ -28,22 +22,17 @@ else :
 # a = int(input("mời nhập cạnh a : "))
 # b = int(input("mời nhập cạnh b : "))
 # c = int(input("mời nhập cạnh c : "))
+# # kiểm tra điều kiện tam giác
 # if (a + b > c ) and (b + c > a) and (a + c > b ) :
-#     print("tam giác thường ")
-# elif ( a == b == c) :
-#     print("tam giác đều" )
-# else :
-#     print("tam giác vuông")
-
-
-
-
-
-
-
-
-
-
+#     #kiểm tra tam giác đều
+#     if ( a == b == c) :
+#         print("Tam giác đều")
+#     elif a*a == b*b + c*c or b*b == a*a + c*c or c*c == a*a + b*b :
+#         print("Tam giác vuông")
+#     else:
+#         print("Tam giác thường")
+# else:
+#     print("a,b,c không phải là cạnh của tam giác")
 
 
 # Bài 3: Xếp loại học sinh
