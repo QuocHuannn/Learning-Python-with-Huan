@@ -62,6 +62,36 @@
 #     print (" xếp loại yếu")
     
     
-    
-
+# Giải PT bậc 4
+from math import sqrt
+#Giải pt bậc 4
+a = float(input("Nhập a = "))
+b = float(input("Nhập b = "))
+c = float(input("Nhập c = "))
+delta = b**2 - 4*a*c
+if delta > 0:
+	x1 = (-b+(sqrt(delta)/2*a))
+	x2 = (-b-(sqrt(delta)/2*a))
+	if x1 < 0 and x2 < 0 :
+		print("Phương Trình vô nghiệm")
+	elif x1 > 0 and x2 < 0:
+		print("x1 = ", sqrt(x1))
+		print("x2 = ", -sqrt(x1))
+	elif x1 < 0 and x2 > 0:
+		print("x1 = ", sqrt(x2))
+		print("x2 = ", -sqrt(x2))
+	else:
+		print("x1 = ", sqrt(x1))
+		print("x2 = ", -sqrt(x1))
+		print("x3 = ", sqrt(x2))
+		print("x4 = ", -sqrt(x2))
+if delta < 0:
+	print("Phương trình vô nghiệm")
+if delta == 0:
+	x = -b/2*a
+	if x < 0:
+		print("Phương trình vô nghiệm")
+	else:
+		print("x1 = ",sqrt(x))
+		print("x2 = ",-sqrt(x))
 
